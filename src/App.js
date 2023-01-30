@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import "./assets/css/style.css"
 
+
 class App extends React.Component {
-  //Some commit
   constructor(props) {
     super(props);
     this.state = {
@@ -25,18 +25,28 @@ class App extends React.Component {
 
     //set quote and author to the state
     this.setQuote(newQuote.content, newQuote.author)
+
+    //change color
+    this.setNewColor()
   }
 
   setQuote(someQuote, newAuthor) {
       this.setState({quote: someQuote, author: newAuthor})
     }
 
+  setNewColor() {
+    var colors = ['#16a085', '#27ae60', '#2c3e50', '#f39c12', '#e74c3c', '#9b59b6', '#FB6964', '#342224', '#472E32', '#BDBB99', '#77B1A9', '#73A857'];
+    let newColor = colors[Math.floor(Math.random() * colors.length)];
+    var r = document.querySelector(':root');
+    r.style.setProperty('--main-color', newColor);
+  }
 
-  render() {
+    render() {
     return (
       <div className="App">
         <div id="quote-box">
           <div className='quote-text'>
+            <i className='fas fa quote-left'></i>
             <span id='text'>{this.state.quote}</span>
           </div>
           <div className='quote-author'>
