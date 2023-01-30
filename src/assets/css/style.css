@@ -4,7 +4,6 @@
   --main-color: rgb(22, 160, 133);
 }
   
-
 html {
   display: block;
   font-size: 16px;
@@ -15,6 +14,7 @@ html {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  list-style: none;
 }
 
 body {
@@ -26,21 +26,28 @@ body {
   color: var(--main-color);
   -webkit-transition: background-color 1s; /* For Safari 3.1 to 6.0 */
   transition: background-color 1s;
+  font-weight: 400;
 }
 
 #quote-box {
   width: 605px;
   background: #fff;
-  border-radius: 15px;
-  padding: 30px 30px 25px;
+  padding: 30px 50px;
+  border-radius: 5px;
   margin: 35px 0 5px;
   float: right;
+  position: relative;
+  background-color: #fff;
 }
 
 #quote-box .quote-text {
   text-align: center;
-  word-break: break-all;
   font-size: 1.75em;
+  width: 500px;
+  height: auto;
+  clear: both;
+  font-weight: 500;
+  margin-right: 0.4em;
 }
 
 #quote-box .quote-author {
@@ -49,15 +56,23 @@ body {
   margin-top: 20px;
   font-size: 1.em;
   font-style: italic;
+  width: 450px;
+  height: auto;
+  clear: both;
+  text-align: right;
 }
 
 #buttons {
   border-top: 1px solid #ccc;
+  width: 450px;
+  display: block;
+  margin: auto;
 }
 
 #buttons #new-quote {
   height: 38px;
-  border-radius: 10px;
+  border: none;
+  border-radius: 5px;
   font-size: 0.85em;
   padding: 8px 18px 6px 18px;
   margin-top: 30px;
@@ -65,6 +80,13 @@ body {
   cursor: pointer;
   align-items: center;
   float: right;
+  color: #fff;
+  background-color: var(--main-color);
+  outline: none;
+}
+
+#buttons #new-quote:hover {
+  opacity: 0.9;
 }
 
 .footer {
@@ -73,5 +95,11 @@ body {
   display: block;
   margin: 15px auto 30px auto;
   font-size: 0.8em;
+  color: #fff;
+}
+
+.footer a {
+  font-weight: 500;
+  text-decoration: none;
   color: #fff;
 }

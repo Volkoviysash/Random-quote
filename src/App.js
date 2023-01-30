@@ -46,13 +46,15 @@ class App extends React.Component {
       <div className="App">
         <div id="quote-box">
           <div className='quote-text'>
-            <i className='fas fa quote-left'></i>
             <span id='text'>{this.state.quote}</span>
           </div>
           <div className='quote-author'>
             <span id='author'>- {this.state.author}</span>
           </div>
           <div id='buttons'>
+            <a class="button" id="tweet-quote" title="Tweet this quote!" target="_top" href="https://twitter.com/intent/tweet?hashtags=quotes&amp;related=freecodecamp&amp;text=%22Education%20costs%20money.%20%20But%20then%20so%20does%20ignorance.%22%20Sir%20Claus%20Moser">
+              <i class="fa fa-twitter"></i>
+            </a>
             <button id='new-quote' onClick={this.randomQuoteGenerator}>Change quote</button>
           </div>
         </div>
