@@ -54,9 +54,10 @@ class App extends React.Component {
             <span id='author'>- {this.state.author}</span>
           </div>
           <div class="buttons">
-          <a class="button" id="tweet-quote" title="Tweet this quote!" target="_top">
+          <a class="button" id="tweet-quote" title="Tweet this quote!" target="_blank" href={"https://twitter.com/intent/tweet?hashtags=quotes&text="+ this.state.quote + " -" + this.state.author}>
             <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
           </a>
+          
           <a class="button" id="instagram-quote" title="Instagram this quote!" target="_top">
             <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
           </a>
