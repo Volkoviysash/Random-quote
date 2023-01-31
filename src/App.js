@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import "./assets/css/style.css"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTwitter, faInstagram, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 
 class App extends React.Component {
@@ -51,15 +53,20 @@ class App extends React.Component {
           <div className='quote-author'>
             <span id='author'>- {this.state.author}</span>
           </div>
-          <div id='buttons'>
-            <a class="button" id="tweet-quote" title="Tweet this quote!" target="_top" href="https://twitter.com/intent/tweet?hashtags=quotes&amp;related=freecodecamp&amp;text=%22Education%20costs%20money.%20%20But%20then%20so%20does%20ignorance.%22%20Sir%20Claus%20Moser">
-              <i class="fa fa-twitter"></i>
-            </a>
-            <button id='new-quote' onClick={this.randomQuoteGenerator}>Change quote</button>
+          <div class="buttons">
+          <a class="button" id="tweet-quote" title="Tweet this quote!" target="_top">
+            <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+          </a>
+          <a class="button" id="instagram-quote" title="Instagram this quote!" target="_top">
+            <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
+          </a>
+          <button id='new-quote' class="button" onClick={this.randomQuoteGenerator}>Change quote</button>
           </div>
         </div>
         <div className='footer'>
-          <p>by volkovich alexandr</p>
+          <p>by <a href='https://github.com/Volkoviysash' target="_blank">
+            <FontAwesomeIcon icon={faGithub} /> volkovich alexandr
+            </a></p>
         </div>
       </div>
     );

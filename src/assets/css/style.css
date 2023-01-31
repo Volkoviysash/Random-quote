@@ -62,37 +62,46 @@ body {
   text-align: right;
 }
 
-#buttons {
+.buttons {
   border-top: 1px solid #ccc;
   width: 450px;
   display: block;
   margin: auto;
 }
 
-#buttons #new-quote {
-  height: 38px;
+.buttons .button {
+  outline: none;
   border: none;
   border-radius: 5px;
+  color: #fff;
+  background-color: var(--main-color);
+  cursor: pointer;
+}
+
+#quote-box .buttons #tweet-quote, 
+#quote-box .buttons #instagram-quote {
+  height: 38px;
+  padding: 7px 12px;
+  margin: 30px 5px 0px;
+  float: left;
+}
+
+.buttons #new-quote {
+  height: 38px;
   font-size: 0.85em;
   padding: 8px 18px 6px 18px;
   margin-top: 30px;
   opacity: 1;
-  cursor: pointer;
-  align-items: center;
   float: right;
-  color: #fff;
-  background-color: var(--main-color);
-  outline: none;
 }
 
-#buttons #new-quote:hover {
+.buttons #new-quote:hover {
   opacity: 0.9;
 }
 
 .footer {
   width: 450px;
   text-align: center;
-  display: block;
   margin: 15px auto 30px auto;
   font-size: 0.8em;
   color: #fff;
