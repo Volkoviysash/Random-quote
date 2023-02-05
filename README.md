@@ -17,4 +17,5 @@ Button "Create new" will generate new quote and will change the background color
 
 ## Author
 Author of the project is Volkovich Alexandr. You can visit my github account tapping on my name at the bottom of the main tab.
+
 You can watch the demo version of this app here https://codepen.io/Volkoviysash/pen/MWBPoQK
