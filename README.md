@@ -15,7 +15,7 @@
 <h2>Screenshots of the Project 📸</h2>
 <br>
 <h3 align='center'>Random quote Page 🏡</h3>
- <img src='[https://user-images.githubusercontent.com/90283311/236708571-f8fead3f-d5f5-4473-96c5-cfddaf0fcd79.png](https://user-images.githubusercontent.com/90283311/236708692-b23d61e9-e008-47f6-b164-4d729331d03b.png)' />
+ <img src='https://user-images.githubusercontent.com/90283311/236708692-b23d61e9-e008-47f6-b164-4d729331d03b.png' />
  <h3 align='center'>Random quote Page 🏡</h3>
  <img src='https://user-images.githubusercontent.com/90283311/236708571-f8fead3f-d5f5-4473-96c5-cfddaf0fcd79.png' />
 
