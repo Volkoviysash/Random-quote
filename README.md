@@ -1,21 +1,19 @@
-# Random quote machine
+<div align='center'>
+  <h1>Posts List App</h1>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2>About the project</h2>
 
-## About app
+  <p>This app is a fun and inspirational platform that generates random quotes to motivate and inspire its users. With a simple click, I can receive a new quote that is unique and thought-provoking. The app offers a variety of quote categories, including success, happiness, love, and personal growth, ensuring that there is something for everyone. I can also share my favorite quotes with friends and family through social media, text messages, or email, spreading positivity and inspiration to those around me. Overall, my app is a great tool for anyone looking for a quick dose of inspiration or a daily reminder to stay motivated and focused on their goals.</p>
 
-Here you can generate some random quote of some great thinker and add it to your twitter or instagram story.
-If quote is not as beautiful and great as you proposed, you can regenerate it using "Generate new" button.
+👉 Live Demo: <a href='*'>Live Demo</a>
 
-## Buttons
+<h3>Build with:</h3>
 
-If you liked how the quote sounds or looks you can tweet it clicking the "Twitter" button. Then in a new tab will open twitter site with completed tweet-form.
+» React JS <br>
 
-Also you can add the screenshot to your instagram, but in this case button will target you on your instagram account and you should make the screenshot to add this quote in your profile.
+<h2>Screenshots of the Project 📸</h2>
+<br>
+<h3 align='center'>Start Page 🏡</h3>
+ <img src='https://user-images.githubusercontent.com/90283311/236708571-f8fead3f-d5f5-4473-96c5-cfddaf0fcd79.png' />
 
-Button "Create new" will generate new quote and will change the background color
-
-## Author
-Author of the project is Volkovich Alexandr. You can visit my github account tapping on my name at the bottom of the main tab.
-
-You can watch the demo version of this app here https://codepen.io/Volkoviysash/pen/MWBPoQK
