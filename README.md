@@ -1,5 +1,5 @@
 <div align='center'>
-  <h1>Posts List App</h1>
+  <h1>Random quote machine</h1>
 </div>
 
 <h2>About the project</h2>
